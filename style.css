@@ -1,0 +1,108 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Cuerpo */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fffde7; /* Amarillo claro */
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Encabezado */
+header {
+    background: #fff176; /* Amarillo */
+    text-align: center;
+    padding: 20px;
+    border-bottom: 3px solid #fbc02d;
+}
+
+header h1 {
+    font-size: 2.5em;
+    color: #222;
+}
+
+header h2 {
+    font-size: 1.2em;
+    color: #444;
+}
+
+/* Navegación */
+nav {
+    background: #fdd835; /* Amarillo más intenso */
+    padding: 10px;
+    text-align: center;
+    border-bottom: 2px solid #fbc02d;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #222;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+nav ul li a:hover {
+    background: #fff59d;
+    color: #000;
+}
+
+/* Contenedor principal */
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+/* Sección de artículos */
+.content {
+    flex: 3;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+.content img {
+    display: block;
+    margin: 10px auto;
+    width: 150px;
+}
+
+.fecha {
+    color: #999;
+    font-size: 0.9em;
+}
+
+.comentarios {
+    margin-top: 10px;
+    font-size: 0.9em;
+    color: #555;
+}
+
+/* Sidebar */
+.sidebar {
+    flex: 1;
+    margin-left: 20px;
+}
+
+.mensaje {
+    background: #fffde7;
+    border: 2px solid #fbc02d;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    font-size: 0.95em;
+}
